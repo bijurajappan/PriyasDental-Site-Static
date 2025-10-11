@@ -2735,7 +2735,7 @@ background: linear-gradient(142deg,rgba(3, 131, 243, 1) 0%, rgba(43, 181, 101, 1
 	padding: 165px 0;
 }
 
-.page-header::before{
+/*.page-header::before{
 	content: '';
     position: absolute;
     top: 0;
@@ -2747,7 +2747,7 @@ background: linear-gradient(142deg,rgba(3, 131, 243, 1) 0%, rgba(43, 181, 101, 1
     width: 100%;
     height: 100%;
     z-index: 0;
-}
+}*/
 
 .page-header-box{
 	position: relative;
@@ -4611,6 +4611,21 @@ display: block;
 .contact-detail-box a {
 	color: #000;
 	font-weight: 700;
+}
+
+ul.nml-list {
+	margin: 0px 0 20px 0;
+}
+ul.nml-list li {
+	margin: 0 0 8px 0;
+	line-height: 25px;
+}
+.policy-box h5 {
+	margin-bottom: 10px;
+
+}
+.policy-box p {
+	margin-bottom: 20px;
 }
 /************************************/
 /***      34. Responsive css      ***/
